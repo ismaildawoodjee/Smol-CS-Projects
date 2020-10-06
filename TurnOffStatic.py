@@ -2,7 +2,7 @@ print("Status: Initializing...\n")
 import tkinter as tk
 from tkinter import ttk
 import pyautogui as pag
-from time import perf_counter
+import time
 
 
 class StaticOff(tk.Tk):
@@ -32,10 +32,9 @@ class StaticOff(tk.Tk):
 		self.automate()
 		self.destroy()
 		while True:
-			if int(perf_counter())%22 == 0:
-				self.automate()
+			time.sleep(22)
+			self.automate()
 			
-
 	def automate(self):
 		initial = pag.position()
 		pag.moveTo(self.speaker, duration = 0.5)
