@@ -1,7 +1,7 @@
 ## Turning off static noise from my laptop
 
 My laptop is old. Very old. Four years and four months old, to be precise. And it makes this static,
-buzzing noise whenever a CPU-intensive application is being ran. Whenever I want to watch a Twitch, 
+buzzing noise whenever a CPU-intensive application is being ran. Whenever I want to watch Twitch, 
 a YouTube video, or participate in a Microsoft Teams or Zoom meeting, the buzzing sound starts up 
 after about a minute (25 seconds in hot weather, when the AC is turned off). 
 
